@@ -17,7 +17,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:5000", // Your backend server
+        target: "https://blogging-platform-backend-mg3g.onrender.com", // Your backend server
         changeOrigin: true,
         secure: false,
       },
